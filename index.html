@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Dots</title>
+</head>
+
+<body>
+    <h3>Click anywhere to draw dots ...</h3>
+    <div class="form-container">
+        <label for="color">Color:</label>
+        <select id="color">
+            <option value="#000000">Black</option>
+            <option value="#ff0000">Red</option>
+            <option value="#00ff00">Green</option>
+            <option value="#0000ff" selected>Blue</option>
+        </select>
+    </div>
+    <div class="form-container">
+        <label for="size">Size:</label>
+        <select id="size">
+            <option value="4">Small</option>
+            <option value="8" selected>Medium</option>
+            <option value="12">Large</option>
+        </select>
+    </div>
+    <button id="clearButton">Clear</button>
+    <script src="main.js"></script>
+</body>
+
+</html>
